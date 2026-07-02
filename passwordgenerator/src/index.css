@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+/* Custom range slider styling */
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #a855f7, #7c3aed);
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(168, 85, 247, 0.4);
+}
+
+input[type="range"]::-moz-range-thumb {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #a855f7, #7c3aed);
+  cursor: pointer;
+  border: none;
+  box-shadow: 0 2px 8px rgba(168, 85, 247, 0.4);
+}
